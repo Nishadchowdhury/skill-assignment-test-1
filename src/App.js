@@ -1,12 +1,14 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import TodoList from './components/TodoList';
+import Home from './Components/Home/Home';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <div className='todo-app'>
-      <TodoList />
-    </div>
+    <>
+      <Home></Home>
+
+    </>
   );
 }
 
